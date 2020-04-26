@@ -11,6 +11,6 @@ class Programmer(Worker):
 
     def set_technology_stack(self, obj):
         self.technology_stack.append(obj)
-    
+
     def get_technology_stack(self):
         return self.technology_stack
